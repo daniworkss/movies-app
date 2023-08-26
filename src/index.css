@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body{
+    background-color: black;
+}
+.search-container{
+    width: 300px;
+    border-radius: 20px;
+}
+.search-container input{
+    width: 250px;
+    padding-left: 5px;
+    height: 45px;
+    border-radius:  20px 0px 0px 20px;
+}
+.search-container input:focus{
+outline: 0px;
+}
+.search-icon{
+    width: 35px;
+}
+
+.movie{
+    background-color: white;
+    width: 350px;
+    height: 520px;
+    border-radius: 20px;
+    
+}
+.movie img{
+    border-radius: 20px 20px 0px 0px;
+    height: 380px;
+    width: 400px;
+    object-fit: cover;
+}
